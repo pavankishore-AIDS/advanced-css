@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header .logo a {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sub-header {
+    background-color: #424242;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.sub-header h1 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.sub-header button {
+    background-color: #ff4081;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item-info span {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.item-info .stats {
+    display: flex;
+    gap: 10px;
+}
+
+.item-info .stats span {
+    color: #ff4081;
+}
